@@ -1,4 +1,5 @@
 INSTALLATION OF DOCKER IN LINUX - apt-get install docker.io
+
 CHECK THE VERSION OF DOCKER - docker version
 PULL THE IMAGE FROM THE DOCKERHUB - docker pull <image name>
 RUN THE IMAGE USING COMMAND - docker run -itd --name "appache-httpd" -p '1000:80' httpd
