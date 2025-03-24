@@ -1,3 +1,9 @@
+DOCKER:
+Docker is an open-source platform that automates the deployment, scaling, and management of applications inside lightweight, portable containers. Containers are a form of virtualization that allow you to package an application and its dependencies together into a single, consistent environment, making it easier to run the application across different computing environments (e.g., on a developer's machine, in a testing environment, or on a production server).
+
+WHY CONTAINERIZATION
+![image](https://github.com/user-attachments/assets/d0907bae-21f1-42ca-9341-dc359daba13e)
+
 INSTALLATION OF DOCKER IN LINUX - apt-get install docker.io
 
 CHECK THE VERSION OF DOCKER - docker version
@@ -27,5 +33,5 @@ IT SHOWS AN HIML FILE(you want edit the file as you like to insert the content o
 
 NOW YOUR  WEBSITE IS HOSTED 
 
-SEE THE OUTPUT LOCALHOST : ipaddress:followed by your port no(it shows output of your webpage!)
+SEE THE OUTPUT LOCALHOST : ipaddress:followed by your port no(it shows output of your webpage!)--http://localhost:1000/
 
