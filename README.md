@@ -35,3 +35,23 @@ NOW YOUR  WEBSITE IS HOSTED
 
 SEE THE OUTPUT LOCALHOST : ipaddress:followed by your port no(it shows output of your webpage!)--http://localhost:1000/
 
+INSIDE THE RUNNING YOU CAN CREATE  A DOCKER IMAGE -docker commit <container name> myimage:v1
+
+RUN THE IMAGE -docker run -itd --name server1 -p "2000:80"
+
+TO VIEW THE RUNNING CONTAINER - docker ps
+
+SEE THE OUTPUT LOCALHOST : ipaddress:followed by your port no(it shows output of your webpage!)--http://localhost:2000/
+
+TO STORE THE IMAGE IN A SPECIFIC PATH- docker save -o /usr/local/backup.tar myimage:v1(purpose-unfortunately supposed  delete the files means- use the following commands to store the image)
+
+TO CHECK THE PATH IS CREATED OR NOT- /usr/local ls
+
+TO DELETE THE CONTAINER- docker rm <container name>
+
+TO DELETE THE IMAGE - docker rmi <image name>
+
+AGAIN WANT TO RETREIVE THE IMAGE MEANS - docker save --i  /usr/local/backup.tar 
+ 
+
+
